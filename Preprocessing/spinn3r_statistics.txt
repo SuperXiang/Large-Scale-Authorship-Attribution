@@ -1,0 +1,6 @@
+#authors = 205941
+#samples = 2380821
+#samples/author = 11 +/- 313
+samples length in characters = 2020 +/- 10849
+samples length in words = 394 +/- 2182
+samples length in sentences = 18 +/- 104

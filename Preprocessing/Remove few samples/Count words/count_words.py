@@ -4,7 +4,7 @@
 # the lines, words and characters in the sample.
 #
 # Environment Requirement: Python 3.5, Anaconda3
-# Date of Last Modified: 03/14/2016
+# Date of Last Modified: 06/16/2020
 # Author: Yingfei(Jeremy) Xiang
 #
 ####################################################################################################################################################
@@ -12,7 +12,7 @@
 import os
 
 # Type the destination path which sample locates
-file = open("C:/Users/sony/Desktop/Count_words/test_sample.txt","r")
+file = open("~/Count_words/test_sample.txt","r")
 
 wordcount = {}
 for word in file.read().split():
@@ -36,7 +36,7 @@ word_counts = 0
 character_counts = 0  
 
 # Type the destination path which sample locates
-with open("C:/Users/sony/Desktop/Count_words/test_sample.txt", "r") as f:  
+with open("~/Count_words/test_sample.txt", "r") as f:  
     for line in f:  
         words = line.split()  
 

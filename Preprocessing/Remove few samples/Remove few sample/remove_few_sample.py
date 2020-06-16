@@ -5,7 +5,7 @@
 # actually. Besides, it also shows out the selected datasets as plot.
 #
 # Environment Requirement: Python 3.5, Anaconda3(with Seaborn installed)
-# Date of Last Modified: 03/18/2016
+# Date of Last Modified: 06/16/2020
 # Author: Yingfei(Jeremy) Xiang
 #
 ####################################################################################################################################################
@@ -21,7 +21,7 @@ from scipy.stats import norm
 import shutil
 
 # Type the source path which inculdes the users
-path = '/ufrc/woodard/share/stylometry/datasets/spinn3r2011/SOCIAL_MEDIA_for_fewsamples_removal/'
+path = '~/stylometry/datasets/spinn3r2011/SOCIAL_MEDIA_for_fewsamples_removal/'
 
 # Choose appropriate threshold so that users with fewer samples will be
 # eliminated
@@ -82,7 +82,7 @@ f.close()
 for folder in folders:
     contents = os.listdir(os.path.join(path,folder)) 
     src = path + folder
-    dst = '/ufrc/woodard/share/stylometry/datasets/spinn3r2011/SOCIAL_MEDIA_authors_few_samples/' + folder
+    dst = '~/stylometry/datasets/spinn3r2011/SOCIAL_MEDIA_authors_few_samples/' + folder
     if len(contents) <= thres:
         shutil.move(src, dst)
 

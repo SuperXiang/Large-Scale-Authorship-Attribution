@@ -1,3 +1,13 @@
+####################################################################################################################################################
+#
+# The script aims to get detailed information of datasets. 
+#
+# Environment Requirement: Python 3.5, Anaconda3
+# Date of Last Modified: 06/19/2020
+# Author: Yingfei(Jeremy) Xiang
+#
+####################################################################################################################################################
+
 import os, sys, glob
 import numpy as np
 import nltk
